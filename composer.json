@@ -1,0 +1,21 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "rollbar/rollbar": "0.18.2",
+        "psr/log": "^1.0",
+        "aws/aws-sdk-php": "~3.0",
+        "tectalic/openai": "*",
+        "thinkshout/mailchimp-api-php": ">=1.0.6",
+        "google/apiclient": "^2.12.1",
+        "tijsverkoyen/css-to-inline-styles": "2.2.1",
+        "dvdoug/boxpacker": "^3.6",
+        "pusher/pusher-php-server": "^4.0",
+        "easypost/easypost-php": "6.9.1",
+        "jenkins-khan/jenkins-api": "dev-master"
+    },
+    "config": {
+        "autoloader-suffix": "ComposerManager",
+        "vendor-dir": "../../../all/vendor"
+    },
+    "prefer-stable": true
+}
